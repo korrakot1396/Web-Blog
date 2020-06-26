@@ -30,7 +30,7 @@
             <h5 class="m-0">{{ $t('page.article_num') }}</h5>
           </div>
           <div class="box-content">
-            <h1 class="m-0"><i class="fas fa-newspaper"></i>{{ statistics.articles }}</h1>
+            <h1 class="m-0"><i class="fas fa-newspaper"></i>{{ statistics. }}</h1>
           </div>
         </div>
       </div>

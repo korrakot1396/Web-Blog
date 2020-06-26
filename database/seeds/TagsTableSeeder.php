@@ -13,6 +13,47 @@ class TagsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Tag::class, 5)->create();
+        $tags = [
+            [
+                'tag' => 'Laravel',
+                'title' => 'Laravel เป็น Php framework',
+                'meta_description'  => 'Laravel เป็น Php framework',
+                'created_at'  => now(),
+                'updated_at'  => now()
+            ],
+            [
+                'tag' => 'Html',
+                'title' => 'Laravel เป็น Php framework',
+                'meta_description'  => 'Laravel เป็น Php framework',
+                'created_at'  => now(),
+                'updated_at'  => now()
+            ],
+            [
+                'tag' => 'Javascript',
+                'title' => 'Laravel เป็น Php framework',
+                'meta_description'  => 'Laravel เป็น Php framework',
+                'created_at'  => now(),
+                'updated_at'  => now()
+            ],
+            [
+                'tag' => 'Css',
+                'title' => 'Laravel เป็น Php framework',
+                'meta_description'  => 'Laravel เป็น Php framework',
+                'created_at'  => now(),
+                'updated_at'  => now()
+            ],
+            [
+                'tag' => 'Java',
+                'title' => 'Laravel เป็น Php framework',
+                'meta_description'  => 'Laravel เป็น Php framework',
+                'created_at'  => now(),
+                'updated_at'  => now()
+            ]
+        ];
+
+        DB::table('tags')->insert($tags);
+
+        // factory(Tag::class, 5)->create();
+
     }
 }

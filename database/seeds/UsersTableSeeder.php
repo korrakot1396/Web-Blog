@@ -24,6 +24,17 @@ class UsersTableSeeder extends Seeder
                 'confirm_code' => Str::random(64),
                 'created_at'  => Carbon::now(),
                 'updated_at'  => Carbon::now()
+            ],
+
+            [
+                'name' => 'korrakot',
+                'email' => 'korrakot.tr@ku.th',
+                'password' => Hash::make('123456789'),
+                'status' => true,
+                'is_admin' => false,
+                'confirm_code' => Str::random(64),
+                'created_at'  => Carbon::now(),
+                'updated_at'  => Carbon::now()
             ]
         ];
 
