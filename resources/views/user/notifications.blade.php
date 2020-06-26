@@ -20,9 +20,9 @@
                     </div>
                     <div class="card-body">
                         <ul class="notification">
-                            @foreach(Auth::user()->notifications as $notification)
-                                @include('notifications.'. snake_case(class_basename($notification->type), '-'))
-                            @endforeach
+                            
+                                 คุณได้รับการแจ้งเตือน 
+                           
                         </ul>
                     </div>
                 </div>
