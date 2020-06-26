@@ -30,8 +30,8 @@ class TagsTableSeeder extends Seeder
             ],
             [
                 'tag' => 'Javascript',
-                'title' => 'Laravel เป็น Php framework',
-                'meta_description'  => 'Laravel เป็น Php framework',
+                'title' => 'JavaScript เป็น ภาษาสคริปต์เชิงวัตถุ',
+                'meta_description'  => 'ที่เราเรียกว่าสคริปต์ ซึ่งใช้ร่วมกับ Html ในการสร้างและพัฒนาเว็บไซต์ของเรานั้น เพื่อให้เว็บไซต์ดูมีการเคลื่อนไหวต่างๆ สามารถตอบสนองต่อผู้ใช้งาน ทำให้เหมือนว่าเว็บไซต์นั้นมีชีวิต',
                 'created_at'  => now(),
                 'updated_at'  => now()
             ],
